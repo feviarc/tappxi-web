@@ -1,0 +1,48 @@
+# .gitignore para TAppXI (React + Vite + TypeScript + PWA)
+
+### Dependencias y builds ###
+node_modules/
+dist/
+.turbo/
+.cache/
+
+### Variables de entorno ###
+.env
+.env.local
+.env.*.local
+.firebase/
+
+### Logs y caché ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.vite/
+.parcel-cache/
+
+### Editor/IDE ###
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+### Testing ###
+cypress/videos/
+cypress/screenshots/
+coverage/
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Específico para PWA ###
+sw.js
+workbox-*.js
+
+### Firebase Emulator ###
+firebase-debug.log
+firebase-export*.json
