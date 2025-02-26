@@ -26,7 +26,10 @@ export const MobileMenu = ({isOpen, onClose}: MobileMenuProps) => {
 
    return (
       <Drawer anchor="left" open={isOpen} onClose={onClose}>
-         <Box sx={{width: 250}}>
+         <Box sx={{
+            width: 250,
+            pt: 8
+         }}>
             <List>
             {
                menuItems.map(
